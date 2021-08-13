@@ -1,11 +1,12 @@
-$(document).ready(function() {
+const startButton = document.getElementById('survey-btn')
 
-  $("div#container").click(function() {
-    const chose = "JavaScript";
-    alert(whatToSay);
-  });
 
-  $("div#click-two").click(function() {
-    alert(whatToSay);
-  });
-});
+
+function startSurvey() {
+  console.log('Started')
+  startButton.classList.add('hide')
+}
+
+function questionOne() {
+
+}

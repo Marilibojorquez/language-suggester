@@ -4,31 +4,77 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
+  <title>Survey</title>
 </head>
 <body>
-  <div class="container">
+
+  <header>
     <h1>Programming Language Suggester</h1>
-    <p>Do yo like design?</p>
+  </header>
 
-  <select class="form-option" id=“design”>
-    <option>Yes</option>
-    <option>No</option>
+  <div class="container">
+    <div id="questions" class="hide">
+      <div id="questions">Questions</div>
+      <div id="answer-buttons" class="btn-grid">
+        <button class="btn">Result</button>
+        <button class="btn">Result2</button>
+        <button class="btn">Result3</button>
+        <button class="btn">Result4</button> 
+      </div>
+    </div>
+    <div class="controls">
+      <button id="start-btn" class="start-btn btn">Start</button>
+      <h2>Do you like to design?</h2>
+      <ul class="option1">
+        <li>Yes</li>
+        <li>No</li>
+      </ul>
+    </div>
 
-    <p>What is your favorite way of creating a webpage?</p>
+    <div class="survey">
+      <div class="question2">
+        <h2>What is your favorite font?</h2>
+        <ul class="option2">
+          <li>Monserrat</li>
+          <li>Noto sans</li>
+        </ul>
+      </div>
 
-  <select class="form-option" id=“design”></select>
-    <option>C#</option>
-    <option>JavaScript</option>
-    <option>Pyhton</option>
+      <div class="survey">
+        <div class="question3">
+          <h2>How do you like to learn programming?</h2>
+          <ul class="option3">
+            <li>Slow</li>
+            <li>Fast?</li>
+          </ul>
+        </div>
+
+        <div class="survey">
+          <div class="question4">
+            <h2>What is your language prefrence to learn?</h2>
+            <ul class="option4">
+              <li>Yes</li>
+              <li>No</li>
+            </ul>
+          </div>
+
+          <div class="survey">
+            <div class="question5">
+              <h2>Your ideal enviorment of studying</h2>
+              <ul class="option5">
+                <li>At a Library</li>
+                <li>At Home</li>
+                <li>At a Cofee Shop</li>
+                <li>With friends</li>
+              </ul>
+            </div>
+
+
   </div>
-  
 
-
-  <button type="submit" class="btn">Suggest Language</button>
 
 </body>
 </html>

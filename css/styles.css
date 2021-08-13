@@ -1,0 +1,32 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body {
+  background-color: rgb(111, 111, 209);
+  padding: 0;
+  margin: 0;
+  display: grid;
+  width: auto;
+  height: auto;
+  align-items: auto;
+
+}
+
+.container {
+  width: 500px;
+  padding: 10px;
+  background-color: brown;
+  border-radius: 4px;
+  box-shadow: 0 0 15px 3px;
+}
+.btn-grid {
+  display: grid;
+  gap: 3px;
+  margin: 40px 0;
+}
+
+.btn:hover {
+  border-color: chocolate;
+}
