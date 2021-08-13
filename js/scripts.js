@@ -1,12 +1,11 @@
 $(document).ready(function() {
-  $("form#insurance").submit(function(event) {
-    const JavaScript = parseInt($("input#JavaScript").val());
 
-    const quote = (100 - age) * 3;
+  $("div#container").click(function() {
+    const chose = "JavaScript";
+    alert(whatToSay);
+  });
 
-    $("#rate").text(quote);
-    $("#quote").show();
-
-    event.preventDefault();
+  $("div#click-two").click(function() {
+    alert(whatToSay);
   });
 });
