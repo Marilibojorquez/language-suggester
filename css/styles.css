@@ -1,48 +1,25 @@
-body {
-  color: rgb(175, 204, 175);
-  background-color: green;
+p {
+  font-family: monospace;
+  font-size: large;
+  color: blueviolet;
 }
 
 .container {
-  width: auto;
-  padding: auto;
-  background-color: brown;
-  border-radius: auto;
-  box-shadow: 0 0 15px 3px;
-}
-
-.container2 {
-  width: auto;
-  padding: auto;
-  background-color: brown;
-  border-radius: auto;
-  box-shadow: 0 0 15px 3px;
-}
-
-.container3 {
-  width: auto;
-  padding: auto;
-  background-color: brown;
-  border-radius: auto;
-  box-shadow: 0 0 15px 3px;
-}
-
-.container4 {
-  width: auto;
-  padding: auto;
-  background-color: brown;
-  border-radius: auto;
-  box-shadow: 0 0 15px 3px;
-}
-
-.container5 {
-  width: auto;
-  padding: auto;
-  background-color: brown;
-  border-radius: auto;
-  box-shadow: 0 0 15px 3px;
-}
-
-.btn:hover {
+  padding: 50px;
+  background-color: cadetblue;
+  border-style: dotted;
+  border: round;
   border-color: chocolate;
+  margin: 10px;
+  display: inherit;
+}
+
+.survey {
+  color: aquamarine;
+  background-color: blanchedalmond;
+}
+
+body {
+  background-color: cadetblue;
+  margin: 10px;
 }
