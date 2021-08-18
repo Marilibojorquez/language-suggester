@@ -4,64 +4,72 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
   <title>Survey</title>
 </head>
 <body>
+
+
   <div class="container">
-    <h1>Survey</h1>
+    <h1>Language Survey Suggester</h1>
       <form name="survey" id="survey">
       <div>
-        <p>What is your preferred method of studying?</p>
-        <select name="survey" id="dropdown">
-        <option value="option1">Quietly</option>
-        <option value="option2">Groups</option>
-        <option value="option3">Library</option>
-      </select>
 
-      <p>What language do you think is the best in 2021?</p>
-        <select name="survey" id="dropdown">
-        <option value="option1">Go</option>
-        <option value="option2">C#</option>
-        <option value="option3">JavaScript</option>
-      </select>
+  <div class="q1">   
+    <label for="studying"><p>From 1 to 5 how likley will you pursue a career in design?</p></label>
+    <input type="text" id="scale">
+    <button type="submit" class="btn-submit">Suggest</button>
+  </div> 
 
-      <p>Why would you like to leaarn a language?</p>
-        <select name="survey" id="dropdown">
-        <option value="option1">To make money</option>
-        <option value="option2">Learn new skills</option>
-        <option value="option3">Chaneg of career</option>
-      </select>
+    <div id="suggestion">
+      <p>We suggest <span id="language"></span></p>
+    </div>
 
-      <p>What do you like to do on your free time?</p>
-        <select name="survey" id="dropdown">
-        <option value="option1">Play video games</option>
-        <option value="option2">Read a book</option>
-        <option value="option3">Go for a walk</option>
-      </select>
+  <div class="q2">
+    <label for=""><p>From 1 to 5 how likely will you suggest yout friends to learn coding?</p></label>
+    <input type="text" id="scale2">
+    <button type="submit" class="btn-submit">Suggest</button>
+  </div>
 
-      <p>What sparked your intrest?</p>
-        <select name="survey" id="dropdown">
-        <option value="option1">Designing websites</option>
-        <option value="option2">The world of coding</option>
-        <option value="option3">A book</option>
-      </select>
+    <div id="suggestion">
+      <p>We suggest <span id="language"></span></p>
+    </div>
+      
+  <div class="q3">
+    <label for="studying"><p>From 1 to 5 how likely will you sutdy C#?</p></label>
+    <input type="text" id="scale3">
+    <button type="submit" class="btn-submit">Suggest</button>
+  </div> 
 
-      <p>How soon would you like to start to learn?</p>
-        <select name="survey" id="dropdown">
-        <option value="option1">Today</option>
-        <option value="option2">1 year</option>
-        <option value="option3">Unsure</option>
-      </select>
+    <div id="suggestion">
+      <p>We suggest <span id="language"></span></p>
+    </div>
 
+  <div class="q4"> 
+    <label for="studying"><p>From 1 to 5 how likley will try different languages?</p></label>
+    <input type="text" id="scale4">
+    <button type="submit" class="btn-submit">Suggest</button>
+  </div> 
+
+    <div id="suggestion">
+      <p>We suggest <span id="language"></span></p>
+    </div>
+
+  <div class="q5"> 
+    <label for="studying"><p>From 1 to 5 how likley will you create a website?</p></label>
+    <input type="text" id="scale5">
+    <button type="submit" class="btn-submit">Suggest</button>
+  </div> 
+
+    <div id="suggestion">
+      <p>We suggest <span id="suggestion"></span></p>
+    </div>
 
 
       </div>
-
-          
       </form>
 </body>
 </html>
