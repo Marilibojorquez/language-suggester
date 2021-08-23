@@ -1,28 +1,38 @@
-$(document).ready(function() {
+$(document).ready(function () {
   $("form#survey").submit(function(event) {
-    const q1 = parseInt($("input#scale").val());
-    const q2 = parseInt($("input#scale2").val());
-    const q3 = parseInt($("input#scale3").val());
-    const q4 = parseInt($("input#scale4").val());
-    const q5 = parseInt($("input#scale5").val());
+    event.preventDefault();  
+    const question1 = $("input#question1").val();
+    const question2 = $("input#question2").val();
+    const question3 = $("input#question3").val();
+    const question4 = $("input#question4").val();
+    const question5 = $("input#question5").val();
+
+    if (scale = 4) {
+      $("#language").append("Javascript");
+      $("#JavaScript").show();
+    
+    } 
+    else if (scale >= 5 && scale < 2) {
+      $("#language").append("Swift");
+      $("#Swift").show();
+    } 
+    else if (scale <= 3 && scale > 2) {
+      $("#language").append("C#");
+      $("#C#").show();
+    }
   
 
+    $("button").click();
 
-    let suggestion = ["Javascript", "Go", "Swift"]
-    
-    console.log(suggestion)  
+    let suggestion = ["Javascript", "Go", "Swift"];
 
-    $("#language").text(scale);
-    $("#suggestion").show();
-    });
+    console.log(suggestion);
+
+    $("#language").show();
+
+    // Suggest language
+    let suggestion = ["Go", "Javascript", "Swift", "C#"];
+    console.log(language);
+
   });
-
-// Suggest language 
-  var suggestion = ['Go', 'Javascript', 'Swift', 'C#',]
-
-  function newSuggestion() {
-  var suggestLanguage = ("Javascript")
-}
-
-
-
+});

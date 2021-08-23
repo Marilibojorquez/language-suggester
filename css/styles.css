@@ -38,7 +38,13 @@ p {
 }
 
 #suggestion {
-  display: none;
+  display: flex;
   text-align: center;
   background-color: palevioletred;
 }
+
+.card {
+  background-color: aqua;
+  margin: 50px;
+}
+
