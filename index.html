@@ -17,45 +17,60 @@
 
   <div class="container">
     <h1>Language Survey Suggester</h1>
-    </div>
-    <form name="survey" id="Form">
-        <div class="form-group">
-          <label for="question1">From 1 to 5 how likley will you pursue a career in design?</label>
-          <input type="number" id="number-1" max="5" min="1" class="form-control">
-        </div>
-
-        <div class="form-group">
-          <label for="question2">From 1 to 5 how likely will you suggest yout friends to learn coding?</label>
-          <input type="number" id="number-2" max="5" min="1" class="form-control">
-        </div>
-
-
-
-        <div class="form-group">
-          <label for="question3">From 1 to 5 how likely will you sutdy C#?</label>
-          <input type="number" id="number-3" max="5" min="1" class="form-control">
-        </div>
-
-
-        <div class="form-group">
-          <label for="question4">From 1 to 5 how likley will try different languages?</label>
-            <input type="number" id="number-4" max="5" min="1" class="form-control">
-        </div>
-
-
-        <div class="form-group">
-          <label for="quesrion5">From 1 to 5 how likley will you create a website?</label>
-          <input type="number" id="number-5" max="5" min="1" class="form-control">
-        </div>
-
-      
-      <button type="submit" class="btn-submit">Suggest</button>
-    </form>
+  </div>
+  <form name="survey" id="survey">
+    <div class="form-group">
+      <label for="question1">Will you pursue a career in design?</label>
+      <select id="answer1" required>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
     </div>
 
-    <div id="suggestion" class="card">
-      <p>We suggest <span id="language"></span>seems like a good option for you!</p>
+    <div class="form-group">
+      <label for="question2">Will you suggest yout friends to learn coding?</label>
+      <select id="answer2" required>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
     </div>
+
+
+
+    <div class="form-group">
+      <label for="question3">Do you have any doubts in studying?</label>
+      <select id="answer3" required>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+
+
+    <div class="form-group">
+      <label for="question4">Will try a different languages?</label>
+      <select id="answer4" required>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+
+
+    <div class="form-group">
+      <label for="question5">Do you have strong intrest in learning new skills?</label>
+      <select id="answer5" required>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+
+
+    <button type="submit" class="btn-submit">Suggest</button>
+  </form>
+  </div>
+
+  <div id="suggestion">
+    <p>We suggest <span id="language"></span>seems like a good option for you!</p>
+  </div>
   </div>
 </body>
 

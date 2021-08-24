@@ -1,38 +1,34 @@
+
 $(document).ready(function () {
-  $("form#survey").submit(function(event) {
-    event.preventDefault();  
-    const question1 = $("input#question1").val();
-    const question2 = $("input#question2").val();
-    const question3 = $("input#question3").val();
-    const question4 = $("input#question4").val();
-    const question5 = $("input#question5").val();
+  $("form#survey").submit(function (event) {
+    //input user numbers
+    const question1 = $("#answer1").val();
+    const question2 = $("#answer2").val();
+    const question3 = $("#answer3").val();
+    const question4 = $("#answer4").val();
+    const question5 = $("#answer5").val();
 
-    if (scale = 4) {
-      $("#language").append("Javascript");
-      $("#JavaScript").show();
-    
-    } 
-    else if (scale >= 5 && scale < 2) {
-      $("#language").append("Swift");
-      $("#Swift").show();
-    } 
-    else if (scale <= 3 && scale > 2) {
-      $("#language").append("C#");
-      $("#C#").show();
+    let answer = ["Javascript", "C#s", "Swift"];
+    if (answer1 = yes) {
+      $("#suggestion").append("Javascript");
+      $('#JavaScript').show();
+
     }
+    else if (answer2 = no && answer3 || yes); {
+      $("#suggestion").append("Swift");
+      $('#Swift').show();
+    }
+    if (answer4 = no && answer5 || 2) {
+      $("#suggestion").append("C#");
+      $('#C#').show();
+    }
+
+
+
+    $("#suggestion").show();
+
+
+    event.preventDefault();
   
-
-    $("button").click();
-
-    let suggestion = ["Javascript", "Go", "Swift"];
-
-    console.log(suggestion);
-
-    $("#language").show();
-
-    // Suggest language
-    let suggestion = ["Go", "Javascript", "Swift", "C#"];
-    console.log(language);
-
   });
 });

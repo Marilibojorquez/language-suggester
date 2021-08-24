@@ -1,8 +1,10 @@
-# _{Language_Suggester}
 
-#### _{This is an application created as a survey to suggest a language. This application is created under the guidence of Epicodus}_
 
-#### By _**{Marili Bojorquez}**_
+# LanguageSuggester
+
+#### _This is an application created as a survey to suggest a language. This application is created under the guidence of Epicodus_
+
+#### By _**Marili Bojorquez**_
 
 ## Technologies Used
 
@@ -20,7 +22,7 @@ _{This an application created for my second project at Epicodus. Project was ass
 
 * _Github_
 
-* _Server used was Githib, please use this link to open up webpage in your browser https://github.com/Marilibojorquez/language-suggester.git
+* Server used was Githib, please use this link to open up webpage in your browser https://github.com/Marilibojorquez/language-suggester.git
 
 ## Known Bugs
 
